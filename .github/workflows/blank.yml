@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: action/checkout@v2
       - name: move code to live folder
-      - run: cp -f ./index.html /var/www/html/fox/index.html
+        run: cp -f ./index.html /var/www/html/fox/index.html
